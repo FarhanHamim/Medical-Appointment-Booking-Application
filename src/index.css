@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  background-color: #f8fafc;
+}
+
+.gradient-background {
+  background: linear-gradient(135deg, #e0f2fe 0%, #e0f7fa 100%);
+}
+
+.success-card-shadow {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+.doctor-card-shadow {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.appointment-card-shadow {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
