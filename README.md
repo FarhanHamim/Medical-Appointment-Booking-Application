@@ -142,35 +142,6 @@ Medix is a modern, responsive web application designed to streamline the process
 
 The project follows a standard Vite + React application structure:
 
-Medical-Appointment-Booking-Application/
-├── public/
-│   └── services.json       # Static data for medical services
-├── src/
-│   ├── assets/             # Images, logos, etc.
-│   ├── components/         # Reusable UI components (Navbar, Footer, ServiceCard, Spinner, etc.)
-│   ├── firebase/
-│   │   └── firebase.config.js # Firebase initialization
-│   ├── layouts/
-│   │   └── MainLayout.jsx    # Main application layout (includes Navbar, Footer, Outlet)
-│   ├── pages/              # Page components (Home, Login, Register, ServiceDetails, etc.)
-│   ├── providers/
-│   │   └── AuthProvider.jsx  # React Context for Firebase authentication state
-│   ├── routes/
-│   │   ├── PrivateRoute.jsx  # HOC for protecting routes
-│   │   └── Routes.jsx        # Main application routes configuration
-│   ├── App.jsx               # Main application component
-│   └── main.jsx              # Vite entry point
-├── .env                      # Environment variables (Firebase config - Gitignored)
-├── .eslintrc.cjs           # ESLint configuration
-├── .gitignore                # Specifies intentionally untracked files
-├── index.html                # Main HTML template for Vite
-├── package.json              # Project metadata, scripts, and dependencies
-├── postcss.config.js         # PostCSS configuration (for Tailwind CSS)
-├── tailwind.config.js        # Tailwind CSS and DaisyUI configuration
-├── vite.config.js            # Vite configuration
-└── README.md                 # This file
-
-
 ## Author
 
 * **Farhan Hamim**
